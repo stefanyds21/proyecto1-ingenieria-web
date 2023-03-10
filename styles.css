@@ -8,3 +8,77 @@
 .debug {
     border: 1px solid red;
 }
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #FFF159;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-top-section {
+    display: flex;
+    gap: 52px;
+    padding: 11px 166px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    padding: 15px 9px;
+    height: 39px;
+    width: 598px;
+    left: 1px;
+    right: 1px;
+    top: 8px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+}
+
+.search-bar > span {
+    color: rgb(206, 204, 204);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.header-bottom-section {
+    display: flex;
+    align-items: center;
+    padding: 13px 187px;
+}
+
+.navigation-bar {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+.navigation-bar-sections {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.address {
+    color: #333333;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.categories {
+    color: rgba(51, 51, 51, 0.6);
+    font-size: 13px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 17.8px;
+}
+
+.auth {
+    color: rgba(51, 51, 51, 1);
+    font-size: 14px;
+    font-weight: 400; 
+}
