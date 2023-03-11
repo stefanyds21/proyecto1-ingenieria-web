@@ -414,6 +414,84 @@ section {
     padding-top: 50px;
 }
 
+.discover-section {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 164px;
+}
+
+.discover-section-header {
+    display: flex;
+    padding-bottom: 19.19px;
+}
+
+.discover-section-header > h1{
+    font-size: 25px;
+    font-weight: 300;
+    color: #666666;
+    padding-top: 93.12px;
+}
+
+.discover-section-container  {
+    display: flex;
+    gap: 15px;
+}
+
+.discover-section-card {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 4px;
+    width: 584px;
+    height: 250px;
+}
+
+.discover-section-description {
+    display: flex;
+    flex-direction: row;
+    gap: 11.28px;
+}
+
+.discover-description {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    padding-top: 57.7px;
+    padding-left: 32px;
+}
+
+.discover-title {
+    font-size: 12px;
+    font-weight: 600;
+    color: #4b4b4b;
+}
+
+.discover-title-description {
+    font-size: 28px;
+    font-weight: 600;
+    color: #4b4b4b;
+}
+
+.discover-button-container {
+    display: flex;
+}
+
+.discover-button {
+    background-color: #3483fa;
+    border-radius: 6px;
+    width: 96px;
+    height: 36px;
+    padding-top: 7.5px;
+}
+
+.discover-button-title {
+    font-weight: 600;
+    font-size: 14px;
+    color: #ffffff;
+    padding-left: 10px;
+}
+
 
 
 
