@@ -324,3 +324,96 @@ section {
     padding-left: 23px;
 }
 
+.points-benefits-section {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 164px;
+}
+
+.points-benefits-section-header {
+    display: flex;
+    gap: 25.36px;
+    padding-bottom: 21.19px;
+}
+
+.points-benefits-section-header > h1{
+    font-size: 25px;
+    font-weight: 300;
+    color: #666666;
+}
+
+.points-benefits-section-header > span{
+    font-size: 15px;
+    font-weight: 400;
+    color: #3483fa;
+    padding: 7.2px;
+}
+
+.points-benefits-section-container  {
+    display: flex;
+    gap: 16px;
+}
+
+.points-benefits-card1 {
+    background-image: url(/media/benefits-card1.png);
+    border-radius: 6px;
+    width: 384px;
+    height: 250px;
+    padding-top: 154px;
+    padding-left: 16px;
+}
+
+.points-benefits-card2 {
+    background-image: url(/media/benefits-card2.png);
+    border-radius: 6px;
+    width: 384px;
+    height: 250px;
+    padding-top: 154px;
+    padding-left: 16px;
+}
+
+.points-benefits-card3 {
+    background-image: url(/media/benefits-card3.png);
+    border-radius: 6px;
+    width: 384px;
+    height: 250px;
+    padding-top: 154px;
+    padding-left: 16px;
+}
+
+.points-benefits-logo {
+    display: flex;
+    flex-direction: row;
+    gap: 11.28px;
+}
+
+.points-benefits-head {
+    padding-top: 15px;
+}
+
+.points-benefits-trial {
+    display: flex;
+    flex-direction: row;
+    font-size: 11px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.points-benefits-title {
+    display: flex;
+    flex-direction: row;
+    font-size: 22px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.points-benefits-description {
+    font-size: 17px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-top: 50px;
+}
+
+
+
+
