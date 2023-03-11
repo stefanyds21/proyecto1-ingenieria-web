@@ -85,6 +85,7 @@ header {
 
 section {
     background-color: #EBEBEB;
+    width: 1512px;
     display: grid;
     grid-template-rows: 50% 50%;
 }
@@ -97,7 +98,7 @@ section {
 }
 
 .payment-options-container {
-    padding: 40px 158px;
+    padding: 30px 158px;
 }
 
 .payment-options-section {
@@ -122,4 +123,86 @@ section {
     flex-direction: column;
     padding: 20.5px 20.5px;
     gap:3px;
+}
+
+.icon-link-text {
+    font-size: 13px;
+    font-weight: 400;
+    color: #3483fa
+}
+
+.icon-link-header > span{
+    font-size: 17px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.offers-section {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 164px;
+}
+
+.offers-section-header {
+    display: flex;
+    gap: 16.38px;
+    padding: 21.19px;
+}
+
+.offers-section-header > h1{
+    font-size: 25px;
+    font-weight: 300;
+    color: #666666;
+}
+
+.offers-section-header > span{
+    font-size: 15px;
+    font-weight: 400;
+    color: #3483fa;
+    padding: 7.2px;
+}
+
+.offers-section-container  {
+    display: flex;
+    gap: 16px;
+}
+
+.card {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 19px 16px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    width: 224px;
+    height: 350px;
+}
+
+.price {
+    font-size: 23px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.discount {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    font-weight: 400;
+    color: #00a650;
+    padding-top: 6px;
+}
+
+.delivery-description {
+    font-size: 13px;
+    font-weight: 600;
+    color: #00a650;
+    padding-top: 5px;
+}
+
+.price-description {
+    display: flex;
+    flex-direction: row;
+    gap: 11.28px;
 }
