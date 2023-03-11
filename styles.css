@@ -206,3 +206,121 @@ section {
     flex-direction: row;
     gap: 11.28px;
 }
+
+.subscription-section {
+    display: flex;
+    flex-direction: column;
+    padding: 57px 164px;
+}
+
+.subscription-section-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1180px;
+    height: 87px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    background: linear-gradient(90deg, #A90F90 55%, #0C1A51 100%);
+}
+
+.subscription-section-header > h1{
+    font-size: 25px;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 28px 24px;
+}
+
+.price-discount {
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+    text-decoration-line: line-through;
+}
+
+.price-subscription {
+    font-size: 22px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.sub-description {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    padding-top: 23.5px;
+    padding-right: 24.48px;
+}
+
+.subscription-section-container {
+    display: flex;
+    flex-direction: column;
+    width: 1180px;
+    height: 276px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background: #ffffff
+}
+
+.subscription-section-container > h1 {
+    font-size: 17px;
+    font-weight: 400;
+    color: #000000;
+    padding: 20px 24px;
+}
+
+.subscription-benefits {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-right: 24.48px;
+    padding-left: 25px;
+    padding-bottom: 54px;
+    gap: 169px;
+}
+
+.benefits-title {
+    font-size: 15px;
+    font-weight: 400;
+    color: #000000;
+    padding-top: 28px;
+    width: 130px;
+}
+
+.benefits-description {
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+}
+
+.delivery-title {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    padding-top: 28px;
+    padding-right: 29px;
+    width: 240px;
+}
+
+.subscription-button-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 12px;
+    padding-right: 30px;
+}
+
+.subscription-button {
+    background-color: #3483fa;
+    border-radius: 6px;
+    width: 124px;
+    height: 48px;
+    padding-top: 12px;
+}
+
+.button-title {
+    font-weight: 600;
+    font-size: 15px;
+    color: #ffffff;
+    padding-left: 23px;
+}
+
