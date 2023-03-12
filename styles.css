@@ -664,5 +664,55 @@ section {
     border-top-left-radius: 4px;
 }
 
+.categories-section {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 164px;
+}
+
+.categories-section-header {
+    display: flex;
+    padding-bottom: 19.19px;
+    padding-top: 75px;
+}
+
+.categories-section-header > h1{
+    font-size: 25px;
+    font-weight: 300;
+    color: #666666;
+}
+
+.categories-section-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.categories-section-subcontainer {
+    display: flex;
+}
+
+.categories-section-cards {
+    background-color: #ffffff;
+    width: 170px;
+    height: 170px;
+    border-width: 0px 1px 1px 0px;
+    border-style: solid;
+    border-color: #EAE6E6;
+    text-align: center;
+    padding-top: 46px;
+    padding-right: 13px;
+    padding-left: 13px;
+    
+}
+
+.categories-section-cards > span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    width: 106px;
+}
+
+
+
 
 
