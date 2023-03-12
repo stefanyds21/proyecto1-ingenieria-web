@@ -86,8 +86,6 @@ header {
 section {
     background-color: #EBEBEB;
     width: 1512px;
-    display: grid;
-    grid-template-rows: 50% 50%;
 }
 
 .poster {
@@ -712,6 +710,61 @@ section {
     width: 106px;
 }
 
+.information-section-header {
+    background: #ebebeb;
+    width: 100%;
+    height: 17.62px;
+}
+
+.information-section {
+    padding: 0px 164px;
+    background: #ffffff;
+    width: 100%;
+    height: 300px;
+}
+
+.information-section-container {
+    display: flex;
+    flex-direction: row;
+    width: 1180px;
+    height: 300px;
+    background: #ffffff;
+    justify-content: space-between;
+    
+}
+
+.information-description {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+}
+
+.information-logo {
+    padding-top: 75.17px;
+}
+
+.information-title {
+    font-size: 19px;
+    font-weight: 500;
+    color: #4b4b4b;
+    padding-top: 24px;
+}
+
+.information-body {
+    font-size: 15px;
+    font-weight: 300;
+    color: #999999;
+    width: 300px;
+    padding-top: 2px;
+}
+
+.information-footer {
+    font-size: 13px;
+    font-weight: 400;
+    color: #3483fa;
+    padding-top: 9px;
+}
 
 
 
