@@ -10,33 +10,48 @@
 }
 
 header {
-    width: 100%;
     height: 100px;
     background-color: #FFF159;
-    display: flex;
-    flex-direction: column;
+}
+
+.header-section {
+    width: 100%;
+    height: 100px;
+    padding-top: 11px;
 }
 
 .header-top-section {
     display: flex;
+    justify-content: center;
+}
+
+.header-body {
+    display: flex;
+    padding-top: 22px;
+    justify-content: center;
+}
+
+.section-title {
+    display: flex;
+    justify-content: space-between;
+    width: 1180px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row; 
     gap: 52px;
-    padding-left: 11vw;
-    padding-top: 11px;
 }
 
 .search-bar {
     display: flex;
-    align-items: center;
-    padding: 15px 9px;
+    flex-direction: row;
     height: 39px;
     width: 598px;
-    left: 1px;
-    right: 1px;
-    top: 8px;
-
     background: #FFFFFF;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
     border-radius: 2px;
+    padding: 9px 0px 7px 15px;
 }
 
 .search-bar > span {
@@ -45,44 +60,25 @@ header {
     font-weight: 400;
 }
 
-.header-bottom-section {
-    display: flex;
-    align-items: center;
-    padding-left: 11vw;
-    padding-top: 22px;
-}
-
-.navigation-bar {
-    display: flex;
-    align-items: center;
-    gap: 200px;
-}
-
-.navigation-bar-sections {
-    display: flex;
-    align-items: center;
-    gap: 50px;
-}
-
 .address {
     color: #333333;
     font-size: 13px;
     font-weight: 400;
+    padding-right: 27.55px;
 }
 
 .categories {
     color: rgba(51, 51, 51, 0.6);
     font-size: 13px;
     font-weight: 400;
-    display: flex;
-    align-items: center;
-    gap: 17.8px;
+    padding-left: 17.8px;
 }
 
 .auth {
     color: rgba(51, 51, 51, 1);
     font-size: 14px;
     font-weight: 400; 
+    padding-left: 220px;
 }
 
 section {
@@ -97,14 +93,13 @@ section {
 
 .payment-options-container {
     display: flex;
-    padding-top: 30px ;
+    padding-top: 40px ;
     justify-content: center;
 }
 
 .payment-options-section {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     width: 1184px;
     height: 90px;
     background: #FFFFFF;
@@ -138,11 +133,10 @@ section {
 
 .offers-section-header {
     display: flex;
-    width: 100vw;
+    width: 100%;
     gap: 16.38px;
-    padding-bottom: 21.19px;
-    padding-top: 50px;
-    padding-left: 11vw;
+    padding: 50px 0px 21.19px 0px;
+    justify-content: center;
 }
 
 .section-header-title{
@@ -155,7 +149,7 @@ section {
     font-size: 15px;
     font-weight: 400;
     color: #3483fa;
-    padding: 7.2px;
+    padding: 7.2px 0px 0px 16.38px;
 }
 
 .section-container  {
@@ -247,10 +241,14 @@ section {
 
 .sub-description {
     display: flex;
-    flex-direction: column;
     gap: 0px;
-    padding-top: 23.5px;
-    padding-right: 24.48px;
+    padding: 23.5px 24.48px 0px 0px;
+}
+
+.sub-price-description {
+    display: flex;
+    flex-direction: column;
+    padding-left: 7px;
 }
 
 .subscription-section {
@@ -278,10 +276,7 @@ section {
 .subscription-benefits {
     display: flex;
     flex-direction: row;
-    padding-top: 10px;
-    padding-right: 24.48px;
-    padding-left: 25px;
-    padding-bottom: 54px;
+    padding: 10px 24.48px 54px 25px;
     gap: 169px;
 }
 
@@ -303,16 +298,14 @@ section {
     font-size: 16px;
     font-weight: 400;
     color: #000000;
-    padding-top: 28px;
-    padding-right: 29px;
+    padding: 28px 29px 0px 0px;
     width: 240px;
 }
 
 .subscription-button-container {
     display: flex;
     justify-content: flex-end;
-    padding-bottom: 12px;
-    padding-right: 30px;
+    padding: 0px 30px 12px 0px;
 }
 
 .subscription-button {
@@ -333,27 +326,23 @@ section {
 .points-benefits-section-header {
     display: flex;
     gap: 25.36px;
-    padding-bottom: 21.19px;
-    padding-top: 80px;
-    padding-left: 22vw;
+    padding: 80px 0px 21.19px 0px;
+    justify-content: center;
 }
 
 .points-benefits-card {
     border-radius: 6px;
     width: 384px;
     height: 250px;
-    padding-top: 154px;
-    padding-left: 16px;
+    padding: 154px 0px 0px 16px;
 }
 
 .card1-image {
     background-image: url(/media/benefits-card1.png);
 }
-
 .card2-image {
     background-image: url(/media/benefits-card2.png);
 }
-
 .card3-image {
     background-image: url(/media/benefits-card3.png);
 }
@@ -391,15 +380,13 @@ section {
 
 .discover-section-header {
     display: flex;
-    padding-bottom: 19.19px;
-    padding-top: 93.12px;
-    padding-left: 22vw;
+    padding: 93.12px 0px 19.19px 0px;
+    justify-content: center;
 }
 
 .discover-section-card {
     background-color: #ffffff;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     border-radius: 4px;
     width: 584px;
@@ -410,8 +397,7 @@ section {
     display: flex;
     flex-direction: column;
     gap: 11px;
-    padding-top: 57.7px;
-    padding-left: 32px;
+    padding: 57.7px 0px 0px 32px;
 }
 
 .discover-title {
@@ -447,9 +433,8 @@ section {
 .shops-section-header {
     display: flex;
     gap: 21.45px;
-    padding-bottom: 21.19px;
-    padding-top: 54.81px;
-    padding-left: 22vw;
+    padding: 54.81px 0px 21.19px 0px;
+    justify-content: center;
 }
 
 .shops-card {
@@ -500,9 +485,8 @@ section {
 .supermarket-section-header {
     display: flex;
     gap: 16.38px;
-    padding-bottom: 21.19px;
-    padding-top: 108.81px;
-    padding-left: 22vw;
+    padding: 108.81px 0px 21.19px 0px;
+    justify-content: center;
 }
 
 .header-bold {
@@ -569,14 +553,14 @@ section {
 
 .categories-section-header {
     display: flex;
-    padding-bottom: 19.19px;
-    padding-top: 75px;
-    padding-left: 22vw;
+    padding: 75px 0px 19.19px 0px;
+    justify-content: center;
 }
 
 .categories-section-container {
     display: flex;
     flex-direction: column;  
+    padding-bottom: 17.62px;
 }
 
 .categories-section-subcontainer {
@@ -592,9 +576,7 @@ section {
     border-style: solid;
     border-color: #EAE6E6;
     text-align: center;
-    padding-top: 46px;
-    padding-right: 13px;
-    padding-left: 13px;   
+    padding: 46px 13px 0px 13px;  
 }
 
 .categories-section-cards > span{
@@ -611,8 +593,7 @@ section {
 .information-section {
     display: flex;
     justify-content: center;
-    padding-top: 17.62px;
-    padding-bottom: 73.5px;
+    padding: 17.62px 0px 73.5px 0px;
 }
 
 .information-section-container {
@@ -658,11 +639,13 @@ section {
     padding-top: 9px;
 }
 
+.centered {
+    padding-top: 128.5px;
+}
+
 .footer {
-    display: flex;
     background-color: #ffffff;
     height: 233px;
-    width: 100%;
 }
 
 .footer-section {
@@ -670,32 +653,37 @@ section {
     width: 100%;
     height: 156px;
     padding-top: 17px;
-    padding-left: 22vw;
 }
 
 .footer-header {
     display: flex;
-    gap: 21.97px;
     font-size: 12px;
     font-weight: 400;
     color: #333333;
+    justify-content: center;
+}
+
+.spacing {
+    padding-left: 21.97px;
 }
 
 .footer-body {
     display: flex;
-    flex-direction: column;
-    gap: 2px;
     padding-top: 7px;
     font-size: 11px;
     font-weight: 400;
     color: #999999;
+    justify-content: center;
 }
 
 .footer-end {
     display: flex;
-    gap: 20px;
-    padding-top: 33px;
-    padding-bottom: 43.5px;
+    padding: 33px 20px 43.5px 0px;
+    justify-content: center;
+}
+
+.image-logo {
+    padding-left: 20px;
 }
 
 
